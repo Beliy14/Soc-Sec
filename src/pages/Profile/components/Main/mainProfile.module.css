@@ -26,6 +26,7 @@
   resize: vertical;
   outline: none;
   min-height: 35px; 
+  max-height: 450px; 
   background-color: #ffffffcb;
   scrollbar-width: thin;
   scrollbar-color: #bebebe #f1f1f1;

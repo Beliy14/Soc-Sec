@@ -9,8 +9,6 @@ import Header from "./components/Header/Header"
 import Settings from "./pages/Settings/Settings"
 import Main from "./pages/Main/Main"
 
-
-
 function App() {
   return (
     <div className="app">
@@ -27,7 +25,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/profile" element={<Profile />} />
-            <Route path="/messages/*" element={<Messages/>} />
+            <Route path="/messages/*" element={<Messages />} />
             <Route path="/news" element={<News />} />
             <Route path="/music" element={<Music />} />
             <Route path="/settings" element={<Settings />} />
